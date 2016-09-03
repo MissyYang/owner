@@ -1,0 +1,29 @@
+<style>
+body,div,ul,li,span{ margin:0;padding:0; }
+li{ list-style:none;}
+#box{ position:relative; width:420px; margin:50px auto 0; border-top:5px solid #b8af9e; border-left:5px solid #b8af9e;}
+#box ul{ width:100%; overflow:hidden;  background:#ccc0b2;}
+#box li{ float:left; width:100px; height:100px; border-right:5px solid #b8af9e;border-bottom:5px solid #b8af9e;}
+#box span{ position:absolute;text-align:center; width:100px; height:100px; line-height:100px;  background:#eee4da; color:#7c736a; font-size:60px; font-family:Arial; transform:scale(0.6,0.6); transition:all 0.2s;}
+#box .span4{ background:#ece0c8;}
+#box .span8{ background:#fe8f5a;}
+#box .span16{ background:#fe652b; color:#fff;}
+#box .span32{ background:#f57d62; color:#fff;}
+#box .span64{ background:#f05735; color:#fff;}
+#box .span128{ background:#ebce72; color:#fff; font-size:50px;}
+#box .span256{ background:#e9cc56; color:#fff; font-size:50px;}
+#box .span512{ background:#eac74f; color:#fff; font-size:50px;}
+#box .span1024{ background:#efc441; color:#fff; font-size:30px;}
+#box .span2048,#box .span4096,#box .span8192{ background:#ac5fa7; color:#fff; font-size:30px;}
+</style>
+</head>
+
+<body>
+<div id="box">
+	<ul>
+    </ul>
+    
+</div>
+
+<script src="js/script.js"></script>
+</body>
